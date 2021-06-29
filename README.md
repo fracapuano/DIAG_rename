@@ -14,6 +14,8 @@ Problems were:
 
 I have then developed a program which reads and manipulates the .csv in which the assignments are stored (using Python's Pandas library), automatically scrapes the web (both using a proxy than not using it) to obtain to take the user to each site where the .pdf of interest is downloadable (using Python's webbot library). The program then execute the naming-file algorithm so that it is possible to start from an anonymous .pdf and end up with the desiderate name for the file. 
 
+Each file had to be renamed in a precise format: 'VE_'+{Year of publishing of the paper} + {Handle code of the paper}. 
+
 I am currently working on developing enough ML skills to even automate the "commit_download" part (being the files stored on different websites, it was not possible to identify one single set of download buttons). 
 
 I decided to share the program with my fellows winners of the scholarship so to ease their work too and automate the search and name of more than 2000 different papers. Everything works perfectly! 
