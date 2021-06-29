@@ -16,7 +16,9 @@ I have then developed a program which reads and manipulates the .csv in which th
 
 Each file had to be renamed in a precise format: 'VE_'+{Year of publishing of the paper} + {Handle code of the paper}. 
 
-I am currently working on developing enough ML skills to even automate the "commit_download" part (being the files stored on different websites, it was not possible to identify one single set of download buttons). 
+I am currently working on developing enough ML skills to even automate the "commit_download" part (being the files stored on different websites, it was not possible to identify one single set of download buttons).
+
+The two parts of the programs have been realized using Jupyter Notebook. 
 
 I decided to share the program with my fellows winners of the scholarship so to ease their work too and automate the search and name of more than 2000 different papers. Everything works perfectly! 
 
